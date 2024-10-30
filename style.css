@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.kalku{
+    background-color: blue;
+    padding: 50px 50px 5px 50px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    min-height: 290px;
+    h1{
+        margin-bottom: 20px;
+    }
+    input{
+        border: none;
+        outline: none;
+        width: 110px;
+        height: 18px;
+        border-radius: 10px;
+        padding: 13px;
+        margin-right: 10px;
+    }
+    select{
+        border: none;
+        outline: none;
+        width: 90px;
+        height: 24px;
+        border-radius: 5px;
+    }
+}
+.anu{
+    margin-bottom: 30px;
+}
+.tombol button{
+    border: none;
+    outline: none;
+    width: 55px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 1s ease;
+    margin-bottom: 10px;
+
+}
+.tombol button:hover{
+    background-color: #0ba1da;
+    cursor: pointer;
+}
+#result{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
